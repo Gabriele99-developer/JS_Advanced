@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+  background-color: #160D08;
+}
+
+h1 {
+  text-align: center;
+  color: #9A7B4F;
+  font-size: 60px;
+  font-family: "Zen Dots";
+}
+
+button {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#contenitore {
+  height: 250px;
+  width: 500px;
+  border: 10px solid #9A7B4F;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #9A7B4F;
+  border-radius: 10px;
+}

@@ -1,35 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body {
-  background-color: #66cc00;
- }
-
+body{
+  width: 100%;
+}
  h1 {
   text-align: center;
-  color: #191970;
+  color: #ffff00;
   font-size: 60px;
   font-family: "Lobster";
  }
 
- div {
-  style="border: groove;
-  border-color: #336600; 
-  width: 482px;
- }
-
- table {
-  border= "0";
-  padding: = 2; 
-  cellspacing: "2" 
-  class="auto-style1"
- }
-
  td{
+  color: #ffff00;
   text-align: center;
   font-family: "Lobster";
   font-size: 30px;
-  style= "
   width: 400px;
-  border-color: #66cc00;
-  border-width: 2px;
  }

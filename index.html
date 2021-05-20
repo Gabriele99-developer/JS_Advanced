@@ -2,26 +2,39 @@
 <html lang="it">
   <head>
     <meta charset="utf-8">
-    <title>Inquinamento in una città!</title>
+    <title>Inquinamento Comuni Italiani!</title>
+
     <link rel="stylesheet" href="css/file.css"/>
     <!-- JavaScript -->
-    <script src="js/file.js"></script>
-  </head>
-  <body>
-    <div id="hormenu"><!-- div che contiene il menu -->
-      <ul> <!-- lista principale: definisce il menu nella sua interezza -->
-      <li>
-      <a href="#">Menu 1</a> <!-- primo list-item, prima voce del menu -->
-      <ul> <!-- Lista annidata: voci del sotto-menu -->
-      <li><a href="#">Submenu 1</a></li>
-      <li><a href="#">Submenu 1</a></li>
-      <li><a href="#">Submenu 1</a></li>
-      <li><a href="#">Submenu 1</a></li>
-      <li><a href="#">Submenu 1</a></li>
-      </ul> <!-- Fine del sotto-menu -->
-      </li> <!-- Chiudo il list-item -->
-      <!--qui altri list-item -->
-      </div>
+    <script type="text/javascript" src="http://streetmaster.streetmaster.it/suggest/js/1.2/suggest.js"></script>
+  
+    <script type="text/javascript">
+        // inizializzazione numero aree di suggest nella pagina
+        initStruct(1);
+        // chiave suggest, collegata all'url della pagina
+        keyTR = "Inserire la chiave SUGGEST";  
+        
+        // dichiarazione dei controlli di input\output
+        aAddressSet[0].townSrch = "txtComune";
+        aAddressSet[0].town = "txtComune";
 
-  </body>
+    </script>
+    <!--Fine dichiarazioni-->
+</head>
+<body>
+  <h1>Monitoraggio Inquinamento In Italia</h1>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Comune
+                    </td>
+                    <td>
+                        <input id="txtComune" autocomplete="off" type="text">
+                    </td>
+                </tr>
+              </tbody>
+          </table>
+    </div> 
+</body>
 </html>

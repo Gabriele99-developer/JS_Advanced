@@ -1,9 +1,2 @@
-let display=0;
+https://streetmaster.streetmaster.it/suggest/js/1.2/suggest.js
 
-function rimuovi(){
-  document.getElementsByClassName('numero')[0].innerHTML=display--;
-}
-
-function aggiungi(){
-  document.getElementsByClassName('numero')[0].innerHTML=++display;
-}

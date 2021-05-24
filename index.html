@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/file.css"/>
     <!-- JavaScript -->
     <script type="text/javascript" src="http://streetmaster.streetmaster.it/suggest/js/1.2/suggest.js"></script>
+    <script type="text/javascript" src="js/file.js"></script>
   
     <script type="text/javascript">
         // inizializzazione numero aree di suggest nella pagina
@@ -15,26 +16,33 @@
         keyTR = "Inserire la chiave SUGGEST";  
         
         // dichiarazione dei controlli di input\output
-        aAddressSet[0].townSrch = "txtComune";
-        aAddressSet[0].town = "txtComune";
+        aAddressSet[0].townSrch = "txtTown";
+        aAddressSet[0].town = "txtTown";
 
     </script>
     <!--Fine dichiarazioni-->
 </head>
-<body background="img/img_2.webp">
- 
-    <h1>Monitoraggio Inquinamento In Italia</h1>
+<body>
+    <div id="mioDiv">
+<div class="title">
+
+    <h1>Monitoraggio</br>
+        Inquinamento</br> 
+        In Italia</h1>
+</div>
+<div class="pollution">      
         <table>
-          <tbody>
+    
               <tr>
-                   <td>Comune
+                   <td>
+                       <div class="location"> Località </div>
                    </td>
                     <td>
-                        <input id="txtComune" autocomplete="off" type="text">
+                        <input id="txtTown" autocomplete="on" type="text" value="Town" size="25">
                     </td>
               </tr>
-            </tbody>
+            
         </table>
-          
+</div> </div>         
 </body>
 </html>
